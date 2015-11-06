@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>サンプル11</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	</script>
+	<script>
+		$(function(){
+			$("img").mouseover(function(){
+				$(this).attr("src","sea.jpg").attr("alt","海");
+			}).mouseout(function(){
+				$(this).attr("src","flower.jpg").attr("alt","花");
+			});
+		});
+	</script>
+</head>
+<body>
+		<img src="flower.jpg" alt="花">
+</body>
+</html>
